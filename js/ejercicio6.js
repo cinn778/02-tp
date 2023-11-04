@@ -10,5 +10,5 @@ for (filas = 1; filas <= 30; filas++) {
         document.write(filas);
     }
 
-    document.write("<br>");
+    
 }
