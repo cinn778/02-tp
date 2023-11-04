@@ -19,10 +19,11 @@
  const texto = prompt("Introduce una cadena de texto:").toUpperCase();
  const lent = texto.length;    
 const contador = 0;
+let cara =""
 
 for ( let i = 0; i < lent; i++) {
-        
-    if ((texto.charAt(i) == "A") || (texto.charAt(i)== "E") || (texto.charAt(i)== "I") || (texto.charAt(i) == "O") || (texto.charAt(i) == "U")) {
+        cara= texto.charAt(i)
+    if ((cara == "A") || (cara== "E") || (cara == "I") || (cara == "O") || (cara == "U")) {
         contador++;
     }
 }
